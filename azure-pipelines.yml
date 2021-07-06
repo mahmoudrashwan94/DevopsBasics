@@ -8,8 +8,7 @@ trigger:
 - master
 
 pool:
-  
-  name: Azure Pipelines
+  vmImage: ubuntu-latest
   demands: Limit -equals DisAbleParallel 
 
 steps:
